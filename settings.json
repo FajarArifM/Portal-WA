@@ -1,0 +1,48 @@
+{
+  "admins": [
+    "6282140501327",
+    "6285855113200"
+  ],
+  "admin_enabled": true,
+  "admin_username": "admin",
+  "admin_password": "Adminjoss1",
+  "genieacs_url": "http://192.166.20.16:7557",
+  "genieacs_username": "admin",
+  "genieacs_password": "acsadmin12345",
+  "mikrotik_host": "192.166.20.1",
+  "mikrotik_port": "8729",
+  "mikrotik_user": "genieacs",
+  "mikrotik_password": "Adminjoss1",
+  "main_interface": "ether5",
+  "pppoe_monitor_enable": true,
+  "technician_numbers": [
+    "6288217262598",
+    "6285795496343",
+    "6285730403376",
+    "6283837968192"
+  ],
+  "technician_group_id": "120363274124168197@g.us",
+  "whatsapp_session_path": "./whatsapp-session",
+  "whatsapp_keep_alive": true,
+  "whatsapp_restart_on_error": true,
+  "pppoe_monitor_interval": 60000,
+  "rx_power_warning": -27,
+  "rx_power_critical": -30,
+  "rx_power_notification_enable": true,
+  "rx_power_notification_interval": 300000,
+  "company_header": "3ANGEL.NET BOT MANAGEMENT",
+  "footer_info": "Penyedia Jasa Layanan Internet Bojonegoro",
+  "customerPortalOtp": true,
+  "otp_length": 4,
+  "otp_expiry_minutes": 5,
+  "server_port": 4555,
+  "server_host": "localhost",
+  "pppoe_notifications": {
+    "enabled": true,
+    "loginNotifications": true,
+    "logoutNotifications": true,
+    "includeOfflineList": true,
+    "maxOfflineListCount": 20,
+    "monitorInterval": 60000
+  }
+}

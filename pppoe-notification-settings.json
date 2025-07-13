@@ -1,0 +1,13 @@
+{
+  "enabled": true,
+  "loginNotifications": true,
+  "logoutNotifications": true,
+  "includeOfflineList": true,
+  "maxOfflineListCount": 20,
+  "adminNumbers": [
+    "6282140501327"
+  ],
+  "technicianNumbers": [6285855113200],
+  "monitorInterval": 60000,
+  "lastActiveUsers": []
+}
