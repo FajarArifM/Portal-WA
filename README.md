@@ -1,19 +1,40 @@
-WhatsAppBot Webportal Pelanggan Saja
+# WhatsAppBot Webportal Pelanggan Saja
 Versi ringan dari whatsappbot Genieacs API dan Mikrotik API yang hanya menggunakan fitur WhatsApp webportal pelanggan saja
+## Persyaratan
+- Node.js v18+ (direkomendasikan v20+)
+- npm atau yarn
+- Akses ke GenieACS API
+- Akses ke Mikrotik API (opsional)
 
-Persyaratan
-Node.js v18+ (direkomendasikan v20+)
-npm atau yarn
-Akses ke GenieACS API
-Akses ke Mikrotik API (opsional)
-Cara Instalasi
+## Cara Instalasi
+```
 apt install git curl -y
+```
+```
 git clone https://github.com/FajarArifM/Portal-WA
-cd Portal-WA
-1. Install Dependensi
+```
+```
+cd portal-wa
+```
+### 1. Install Dependensi
+
+```bash
 apt install npm
-2. Konfigurasi Environment Variables
-Edit file .env dengan pengaturan yang sesuai:
+```
+
+### 2. Konfigurasi Environment Variables
+
+
+Edit file `.env` dengan pengaturan yang sesuai:
+
+```
+# Konfigurasi Admin
+ADMIN_USERNAME=admin
+ADMIN_PASSWORD=password
+
+# setting juga file settings.json 
+samakan dengan env
+
 
 # Konfigurasi Server
 PORT=4555 (jika sudah dipake ganti)
