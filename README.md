@@ -43,42 +43,48 @@ WHATSAPP_RESTART_ON_ERROR=true
 setting juga file settings.json
 samakan dengan env
 
-3. Menjalankan Aplikasi
-npm start
-siapkan dua nomer whatsapp 1 buat bot 1 buat admin
-Scan QR code yang muncul di terminal untuk login WhatsApp.
-setelah di scan tinggal jalankan dengan PM2
+### 3. Menjalankan Aplikasi
 
+```bash
+npm start
+```
+# siapkan dua nomer whatsapp 1 buat bot 1 buat admin
+Scan QR code yang muncul di terminal untuk login WhatsApp.<br>
+setelah di scan tinggal jalankan dengan PM2
+```bash
 pm2 start app-whatsapp-only.js
-webportal pelanggan : ipserver:4555
-Perintah WhatsApp
-Perintah untuk Pelanggan
-menu - Menampilkan menu bantuan
-status - Cek status perangkat
-refresh - Refresh data perangkat
-gantiwifi [nama] - Ganti nama WiFi
-gantipass [password] - Ganti password WiFi
-Perintah untuk Admin
-Semua perintah pelanggan
-admin - Menampilkan menu admin
-cek [nomor] - Cek status ONU pelanggan
-list - Daftar semua ONU
-cekall - Cek status semua ONU
-editssid [nomor] [ssid] - Edit SSID pelanggan
-editpass [nomor] [password] - Edit password WiFi pelanggan
-addhotspot [user] [pass] [profile] - Tambah user hotspot
-delhotspot [user] - Hapus user hotspot
-hotspot - Lihat user hotspot aktif
-addpppoe [user] [pass] [profile] [ip] - Tambah secret PPPoE
-delpppoe [user] - Hapus secret PPPoE
-setprofile [user] [profile] - Ubah profile PPPoE
-pppoe - Lihat koneksi PPPoE aktif
-offline - Lihat user PPPoE offline
-resource - Info resource router
-addwan [nomor] [tipe] [mode] - Tambah konfigurasi WAN
-addtag [device_id] [nomor] - Tambahkan nomor pelanggan ke perangkat
-addpppoe_tag [pppoe_username] [nomor] - Tambahkan nomor pelanggan berdasarkan PPPoE
-`Otp On untuk mengaktifkan OTP
-`Otp off untuk nonaktifkan OTP
-Otp status untuk melihat status OTP
-Jangan lupa untuk mengkonfigurasi file .env terlebih dahulu!
+```
+# webportal pelanggan : ipserver:4555
+## Perintah WhatsApp
+
+### Perintah untuk Pelanggan
+- `menu` - Menampilkan menu bantuan
+- `status` - Cek status perangkat
+- `refresh` - Refresh data perangkat
+- `gantiwifi [nama]` - Ganti nama WiFi
+- `gantipass [password]` - Ganti password WiFi
+
+### Perintah untuk Admin
+- Semua perintah pelanggan
+- `admin` - Menampilkan menu admin
+- `cek [nomor]` - Cek status ONU pelanggan
+- `list` - Daftar semua ONU
+- `cekall` - Cek status semua ONU
+- `editssid [nomor] [ssid]` - Edit SSID pelanggan
+- `editpass [nomor] [password]` - Edit password WiFi pelanggan
+- `addhotspot [user] [pass] [profile]` - Tambah user hotspot
+- `delhotspot [user]` - Hapus user hotspot
+- `hotspot` - Lihat user hotspot aktif
+- `addpppoe [user] [pass] [profile] [ip]` - Tambah secret PPPoE
+- `delpppoe [user]` - Hapus secret PPPoE
+- `setprofile [user] [profile]` - Ubah profile PPPoE
+- `pppoe` - Lihat koneksi PPPoE aktif
+- `offline` - Lihat user PPPoE offline
+- `resource` - Info resource router
+- `addwan [nomor] [tipe] [mode]` - Tambah konfigurasi WAN
+- `addtag [device_id] [nomor]` - Tambahkan nomor pelanggan ke perangkat
+- `addpppoe_tag [pppoe_username] [nomor]` - Tambahkan nomor pelanggan berdasarkan PPPoE
+- `Otp On untuk mengaktifkan OTP
+- `Otp off untuk nonaktifkan OTP
+- Otp status untuk melihat status OTP
+### Jangan lupa untuk mengkonfigurasi file .env terlebih dahulu!
